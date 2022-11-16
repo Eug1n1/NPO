@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="1" result="Failed" label="Error" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.16.0.0" clr-version="4.0.30319.42000" start-time="2022-11-16 16:54:10Z" end-time="2022-11-16 16:54:11Z" duration="1.001552">
+  <command-line><![CDATA["C:\Users\eug1n1\scoop\apps\nunit-console\current\nunit3-console.exe" lab_7/CalculatorTest/obj/Debug/net6.0/CalculatorTest.dll]]></command-line>
+  <test-suite type="Assembly" id="0" name="" fullname="" runstate="NotRunnable" testcasecount="1" result="Failed" label="Error" start-time="2022-11-16 16:54:11Z" end-time="2022-11-16 16:54:11Z" duration="0.001" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <failure>
+      <message><![CDATA[System.Net.Sockets.SocketException : An existing connection was forcibly closed by the remote host]]></message>
+      <stack-trace><![CDATA[--SocketException
+An existing connection was forcibly closed by the remote host
+   at NUnit.Engine.Communication.Transports.Tcp.SocketReader.GetNextMessage()
+   at NUnit.Engine.Communication.Transports.Tcp.TestAgentTcpProxy.TestRunResult(ITestEventListener listener)
+   at NUnit.Engine.Runners.ProcessRunner.RunTests(ITestEventListener listener, TestFilter filter)
+]]></stack-trace>
+    </failure>
+  </test-suite>
+</test-run>

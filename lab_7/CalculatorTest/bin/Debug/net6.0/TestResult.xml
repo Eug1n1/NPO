@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="10" result="Passed" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="20" engine-version="3.16.0.0" clr-version="4.0.30319.42000" start-time="2022-11-16 16:57:46Z" end-time="2022-11-16 16:57:47Z" duration="0.632329">
+  <command-line><![CDATA[C:\Users\eug1n1\scoop\apps\nunit-console\current\nunit3-console.exe  CalculatorTest.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1011" name="CalculatorTest.dll" fullname="C:/Users/eug1n1/Univer/NPO/lab_7/CalculatorTest/bin/Debug/net6.0/CalculatorTest.dll" runstate="Runnable" testcasecount="10" result="Passed" start-time="2022-11-16T16:57:47.1648518Z" end-time="2022-11-16T16:57:47.2046892Z" duration="0.039754" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="20">
+    <environment framework-version="3.13.3.0" clr-version="6.0.11" os-version="Microsoft Windows 10.0.19043" platform="Win32NT" cwd="C:\Users\eug1n1\Univer\NPO\lab_7\CalculatorTest\bin\Debug\net6.0" machine-name="DESKTOP-D20DTGS" user="eug1n1" user-domain="DESKTOP-D20DTGS" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\eug1n1\Univer\NPO\lab_7\CalculatorTest\bin\Debug\net6.0" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETCoreApp,Version=v6.0" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="netcore-6.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="3456" />
+      <property name="_APPDOMAIN" value="nunit-agent" />
+    </properties>
+    <test-suite type="TestSuite" id="1-1012" name="CalculatorTest" fullname="CalculatorTest" runstate="Runnable" testcasecount="10" result="Passed" start-time="2022-11-16T16:57:47.1713978Z" end-time="2022-11-16T16:57:47.2046808Z" duration="0.033283" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="20">
+      <test-suite type="TestFixture" id="1-1000" name="Tests" fullname="CalculatorTest.Tests" classname="CalculatorTest.Tests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2022-11-16T16:57:47.1728770Z" end-time="2022-11-16T16:57:47.2043219Z" duration="0.031445" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="20">
+        <test-case id="1-1009" name="bigNumbers" fullname="CalculatorTest.Tests.bigNumbers" methodname="bigNumbers" classname="CalculatorTest.Tests" runstate="Runnable" seed="49850295" result="Passed" start-time="2022-11-16T16:57:47.1749461Z" end-time="2022-11-16T16:57:47.1896827Z" duration="0.014824" asserts="1" />
+        <test-case id="1-1004" name="divTest" fullname="CalculatorTest.Tests.divTest" methodname="divTest" classname="CalculatorTest.Tests" runstate="Runnable" seed="1922649119" result="Passed" start-time="2022-11-16T16:57:47.1914785Z" end-time="2022-11-16T16:57:47.1922211Z" duration="0.000743" asserts="3" />
+        <test-case id="1-1002" name="minTest" fullname="CalculatorTest.Tests.minTest" methodname="minTest" classname="CalculatorTest.Tests" runstate="Runnable" seed="1566994405" result="Passed" start-time="2022-11-16T16:57:47.1922764Z" end-time="2022-11-16T16:57:47.1926482Z" duration="0.000372" asserts="3" />
+        <test-case id="1-1003" name="mulTest" fullname="CalculatorTest.Tests.mulTest" methodname="mulTest" classname="CalculatorTest.Tests" runstate="Runnable" seed="71971335" result="Passed" start-time="2022-11-16T16:57:47.1926668Z" end-time="2022-11-16T16:57:47.1929516Z" duration="0.000285" asserts="3" />
+        <test-case id="1-1007" name="multipleOperations" fullname="CalculatorTest.Tests.multipleOperations" methodname="multipleOperations" classname="CalculatorTest.Tests" runstate="Runnable" seed="1354214337" result="Passed" start-time="2022-11-16T16:57:47.1929675Z" end-time="2022-11-16T16:57:47.1994600Z" duration="0.006493" asserts="1" />
+        <test-case id="1-1006" name="noOperation" fullname="CalculatorTest.Tests.noOperation" methodname="noOperation" classname="CalculatorTest.Tests" runstate="Runnable" seed="626375697" result="Passed" start-time="2022-11-16T16:57:47.1994901Z" end-time="2022-11-16T16:57:47.1997656Z" duration="0.000276" asserts="1" />
+        <test-case id="1-1008" name="noOperationSecondOverload" fullname="CalculatorTest.Tests.noOperationSecondOverload" methodname="noOperationSecondOverload" classname="CalculatorTest.Tests" runstate="Runnable" seed="207034422" result="Passed" start-time="2022-11-16T16:57:47.1997839Z" end-time="2022-11-16T16:57:47.2000015Z" duration="0.000218" asserts="1" />
+        <test-case id="1-1010" name="oneOperand" fullname="CalculatorTest.Tests.oneOperand" methodname="oneOperand" classname="CalculatorTest.Tests" runstate="Runnable" seed="947413681" result="Passed" start-time="2022-11-16T16:57:47.2000199Z" end-time="2022-11-16T16:57:47.2023291Z" duration="0.002310" asserts="1" />
+        <test-case id="1-1001" name="sumTest" fullname="CalculatorTest.Tests.sumTest" methodname="sumTest" classname="CalculatorTest.Tests" runstate="Runnable" seed="999061211" result="Passed" start-time="2022-11-16T16:57:47.2023624Z" end-time="2022-11-16T16:57:47.2026445Z" duration="0.000282" asserts="3" />
+        <test-case id="1-1005" name="wrongOperation" fullname="CalculatorTest.Tests.wrongOperation" methodname="wrongOperation" classname="CalculatorTest.Tests" runstate="Runnable" seed="1016181000" result="Passed" start-time="2022-11-16T16:57:47.2026616Z" end-time="2022-11-16T16:57:47.2033158Z" duration="0.000654" asserts="3" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

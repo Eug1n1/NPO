@@ -1,0 +1,15 @@
+C:\Users\eug1n1\Univer\npo\npo_5\npo_5\bin\Debug\net6.0\npo_5.exe
+C:\Users\eug1n1\Univer\npo\npo_5\npo_5\bin\Debug\net6.0\npo_5.deps.json
+C:\Users\eug1n1\Univer\npo\npo_5\npo_5\bin\Debug\net6.0\npo_5.runtimeconfig.json
+C:\Users\eug1n1\Univer\npo\npo_5\npo_5\bin\Debug\net6.0\npo_5.dll
+C:\Users\eug1n1\Univer\npo\npo_5\npo_5\bin\Debug\net6.0\npo_5.pdb
+C:\Users\eug1n1\Univer\npo\npo_5\npo_5\obj\Debug\net6.0\npo_5.csproj.AssemblyReference.cache
+C:\Users\eug1n1\Univer\npo\npo_5\npo_5\obj\Debug\net6.0\npo_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eug1n1\Univer\npo\npo_5\npo_5\obj\Debug\net6.0\npo_5.AssemblyInfoInputs.cache
+C:\Users\eug1n1\Univer\npo\npo_5\npo_5\obj\Debug\net6.0\npo_5.AssemblyInfo.cs
+C:\Users\eug1n1\Univer\npo\npo_5\npo_5\obj\Debug\net6.0\npo_5.csproj.CoreCompileInputs.cache
+C:\Users\eug1n1\Univer\npo\npo_5\npo_5\obj\Debug\net6.0\npo_5.dll
+C:\Users\eug1n1\Univer\npo\npo_5\npo_5\obj\Debug\net6.0\refint\npo_5.dll
+C:\Users\eug1n1\Univer\npo\npo_5\npo_5\obj\Debug\net6.0\npo_5.pdb
+C:\Users\eug1n1\Univer\npo\npo_5\npo_5\obj\Debug\net6.0\npo_5.genruntimeconfig.cache
+C:\Users\eug1n1\Univer\npo\npo_5\npo_5\obj\Debug\net6.0\ref\npo_5.dll
