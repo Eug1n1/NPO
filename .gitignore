@@ -1,6 +1,8 @@
 *.db
 *.log
+**/Debug
+**/.vs
+**/out
+**/build
+**/x64
 target/
-.vs/
-Debug/
-bin/
