@@ -1,3 +1,6 @@
 *.db
 *.log
 target/
+.vs/
+Debug/
+bin/
