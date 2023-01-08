@@ -11,15 +11,19 @@
           "Microsoft.NET.Test.Sdk": "17.1.0",
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.3.0",
+          "NUnit.ConsoleRunner": "3.16.0",
           "NUnit3TestAdapter": "4.2.1",
-          "coverlet.collector": "3.1.2",
+          "OpenCover": "4.7.1221",
+          "ReportGenerator": "5.1.12",
+          "ReportUnit": "1.2.1",
+          "coverlet.collector": "3.2.0",
           "lab_7": "1.0.0"
         },
         "runtime": {
           "CalculatorTest.dll": {}
         }
       },
-      "coverlet.collector/3.1.2": {},
+      "coverlet.collector/3.2.0": {},
       "Microsoft.CodeCoverage/17.1.0": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -360,7 +364,11 @@
         }
       },
       "NUnit.Analyzers/3.3.0": {},
+      "NUnit.ConsoleRunner/3.16.0": {},
       "NUnit3TestAdapter/4.2.1": {},
+      "OpenCover/4.7.1221": {},
+      "ReportGenerator/5.1.12": {},
+      "ReportUnit/1.2.1": {},
       "System.Collections/4.0.11": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -666,12 +674,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "coverlet.collector/3.1.2": {
+    "coverlet.collector/3.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wuLDIDKD5XMt0A7lE31JPenT7QQwZPFkP5rRpdJeblyXZ9MGLI8rYjvm5fvAKln+2/X+4IxxQDxBtwdrqKNLZw==",
-      "path": "coverlet.collector/3.1.2",
-      "hashPath": "coverlet.collector.3.1.2.nupkg.sha512"
+      "sha512": "sha512-xjY8xBigSeWIYs4I7DgUHqSNoGqnHi7Fv7/7RZD02rvZyG3hlsjnQKiVKVWKgr9kRKgmV+dEfu8KScvysiC0Wg==",
+      "path": "coverlet.collector/3.2.0",
+      "hashPath": "coverlet.collector.3.2.0.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.1.0": {
       "type": "package",
@@ -757,12 +765,40 @@
       "path": "nunit.analyzers/3.3.0",
       "hashPath": "nunit.analyzers.3.3.0.nupkg.sha512"
     },
+    "NUnit.ConsoleRunner/3.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xNo1oWhTICkTICt8K/qsZTRK5ZSTcy+5A9AeDTFYiLNmtVIvvAONi+XUMFvJTPFei1MyH+iiRlurTXTLDvMvCw==",
+      "path": "nunit.consolerunner/3.16.0",
+      "hashPath": "nunit.consolerunner.3.16.0.nupkg.sha512"
+    },
     "NUnit3TestAdapter/4.2.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-kgH8VKsrcZZgNGQXRpVCrM7TnNz9li3b/snH+YmnXUNqsaWa1Xw9EQWHpbzq4Li2FbTjTE/E5N5HdLNXzZ8BpQ==",
       "path": "nunit3testadapter/4.2.1",
       "hashPath": "nunit3testadapter.4.2.1.nupkg.sha512"
+    },
+    "OpenCover/4.7.1221": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XZsMfTpbGnqLWCQjOeLlbDUU0lazJHbyEX52d7oRSuQX7Ve+23nfk4TF/F61hS382IEHB8WvUwkPB2IIA9WqEQ==",
+      "path": "opencover/4.7.1221",
+      "hashPath": "opencover.4.7.1221.nupkg.sha512"
+    },
+    "ReportGenerator/5.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KE/Rms+lCDO2igCjwj1FZ0QO4JhRJp706saeoTzWXu7Ats4TBrsHhXmPyOWHcUOpOB2WTiIm80y+g+QiwKcTmQ==",
+      "path": "reportgenerator/5.1.12",
+      "hashPath": "reportgenerator.5.1.12.nupkg.sha512"
+    },
+    "ReportUnit/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-68aP9jbHZfxJU2s0tEG/SnKcKBabq/EiP+CwwaqfqvfxqjC/cE8FzB7nAOTFjaCnFD0wu94g6LraFCkM3cW8nw==",
+      "path": "reportunit/1.2.1",
+      "hashPath": "reportunit.1.2.1.nupkg.sha512"
     },
     "System.Collections/4.0.11": {
       "type": "package",

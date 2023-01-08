@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="0" result="Failed" label="Invalid" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.16.0.0" clr-version="4.0.30319.42000" start-time="2022-11-17 06:54:01Z" end-time="2022-11-17 06:54:02Z" duration="0.435156">
+  <command-line><![CDATA["C:\Users\eug1n1\scoop\apps\nunit-console\current\nunit3-console.exe"  .\bin\Debug\net6.0\lab_7.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1" name="lab_7.dll" fullname="C:\Users\eug1n1\Univer\NPO\lab_7\CalculatorTest\bin\Debug\net6.0\lab_7.dll" testcasecount="0" runstate="NotRunnable" result="Failed" label="Invalid">
+    <properties>
+      <property name="_SKIPREASON" value="No suitable tests found in 'C:\Users\eug1n1\Univer\NPO\lab_7\CalculatorTest\bin\Debug\net6.0\lab_7.dll'.&#xA;Either assembly contains no tests or proper test driver has not been found." />
+    </properties>
+    <reason>
+      <message>No suitable tests found in 'C:\Users\eug1n1\Univer\NPO\lab_7\CalculatorTest\bin\Debug\net6.0\lab_7.dll'.
+Either assembly contains no tests or proper test driver has not been found.</message>
+    </reason>
+  </test-suite>
+</test-run>

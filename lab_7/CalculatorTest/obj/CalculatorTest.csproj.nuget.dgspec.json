@@ -56,13 +56,31 @@
               "target": "Package",
               "version": "[3.3.0, )"
             },
+            "NUnit.ConsoleRunner": {
+              "target": "Package",
+              "version": "[3.16.0, )"
+            },
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[4.2.1, )"
             },
-            "coverlet.collector": {
+            "OpenCover": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[4.7.1221, )"
+            },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[5.1.12, )"
+            },
+            "ReportUnit": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
             }
           },
           "imports": [
@@ -81,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\eug1n1\\scoop\\apps\\dotnet-sdk-lts\\current\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -136,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\eug1n1\\scoop\\apps\\dotnet-sdk-lts\\current\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
