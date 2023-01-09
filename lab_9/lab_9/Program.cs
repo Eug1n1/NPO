@@ -36,14 +36,12 @@ internal class Program
 
         Thread.Sleep(5000);
 
-
-        var products = wait.Until(condition => condition.FindElement(By.XPath("/html/body/div[2]/div/div[1]/div[1]/div/div/div[3]/div/div[3]/div/div/div[2]/div[1]/div/div[1]")));
+        var products = wait.Until(condition => condition.FindElement(By.XPath("/html/body/div[2]/div/div[1]/div[1]/div/div/div[3]/div/div[3]/div/div/div[2]/div[1]/div/div[48]")));
 
         Console.WriteLine($"products: {products.Text}");
 
         products.FindElement(By.TagName("a")).Click();
 
-        Console.ReadKey(true);
         driver.Quit();
     }
 }
