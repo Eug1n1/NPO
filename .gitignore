@@ -1,8 +1,8 @@
 *.db
 *.log
-**/Debug
-**/.vs
-**/out
-**/build
+**/Debug/
+**/.vs/
+**/out/
+**/build/
 **/x64
 target/
