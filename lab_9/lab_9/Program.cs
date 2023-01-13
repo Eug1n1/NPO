@@ -11,7 +11,11 @@ internal class Program
         FirefoxDriverService service = FirefoxDriverService.CreateDefaultService(@"C:\Users\eug1n1\scoop\apps\GeckoDriver\current", "geckodriver.exe");
         service.FirefoxBinaryPath = @"C:\Program Files\Mozilla Firefox\firefox.exe";
 
-        IWebDriver driver = new FirefoxDriver(service);
+        FirefoxOptions firefoxOptions = new FirefoxOptions();
+        firefoxOptions.AddArgument("--profile");
+        firefoxOptions.AddArgument("C:\\Users\\eug1n1\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\e6ntxksp.default-release\\");
+
+        IWebDriver driver = new FirefoxDriver(service, firefoxOptions);
         WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
 
         driver.Navigate().GoToUrl("https://www.adidas.com/us");
@@ -43,5 +47,6 @@ internal class Program
         products.FindElement(By.TagName("a")).Click();
 
         driver.Quit();
+        Thread.Sleep(10000);
     }
 }

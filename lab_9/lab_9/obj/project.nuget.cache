@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0e4/rk4Z2mlTkZyM85BvngMwdQiNscqLtaiTrngL/DwQ5hD6v8tF6HF4hMhn2JP5fSngb1reEPAyljRcz69Dvw==",
+  "dgSpecHash": "r39LMhHoSxJOXohJ9m/dwvWUUk6Ukmb8Y1kWYcY0gJe9h7kURZuVxF49MmJdFj21YAFQwknKmun8FMkSgdlJ/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\eug1n1\\Univer\\npo\\lab_9\\lab_9\\lab_9.csproj",
+  "projectFilePath": "C:\\Users\\eug1n1\\Univer\\NPO\\lab_9\\lab_9\\lab_9.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eug1n1\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\eug1n1\\.nuget\\packages\\selenium.firefox.webdriver\\0.27.0\\selenium.firefox.webdriver.0.27.0.nupkg.sha512",
